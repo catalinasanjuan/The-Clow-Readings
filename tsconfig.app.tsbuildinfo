@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/data/cartas-clow.ts","./src/types/cards.ts","./src/app.vue","./src/components/clowcard.vue","./src/components/helloworld.vue"],"version":"5.7.3"}
