@@ -32,7 +32,7 @@ const revelarCarta = () => {
   });
 
   // Sonido al girar
-  const audio = new Audio('https://raw.githubusercontent.com/stackblitz/content/main/sounds/release.mp3');
+  const audio = new Audio('/sounds/release.mp3');
   audio.play();
 };
 </script>
