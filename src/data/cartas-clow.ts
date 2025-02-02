@@ -22,7 +22,7 @@ export const CARTAS_CLOW: ClowCard[] = [
     imagen: "https://i.pinimg.com/736x/35/a5/5c/35a55cb31e6c0f02ecc19efaaa9072b4.jpg"
   },
   {
-    nombre: "La Carta de la Sombra",
+    nombre: "La Carta de la Oscuridad",
     significado: "Misterios, secretos y exploración del inconsciente.",
     imagen: "https://i.pinimg.com/736x/eb/a6/60/eba660d02e029227b8afdfd6cea88945.jpg"
   },
@@ -84,7 +84,7 @@ export const CARTAS_CLOW: ClowCard[] = [
   {
     nombre: "La Carta del Espejo",
     significado: "Reflejo, autoexploración y comprensión de uno mismo.",
-    imagen: "https://i.pinimg.com/736x/f2/ac/08/f2ac08e87161e64f5c710d1e2ba2f3d7.jpg"
+    imagen: "https://i.pinimg.com/736x/4c/d2/ab/4cd2abbfd8d7090b8b4c0cc28f921478.jpg"
   },
   {
     nombre: "La Carta de la Lluvia",
@@ -130,5 +130,145 @@ export const CARTAS_CLOW: ClowCard[] = [
     nombre: "La Carta del Cristal",
     significado: "Claridad, pureza y enfoque absoluto.",
     imagen: "https://i.pinimg.com/736x/49/86/f4/4986f434e61917e8bc87ab26fa367d74.jpg"
+  },
+  {
+    nombre: "La Carta del Bucle",
+    significado: "Repeticiones, ciclos y aprendizajes constantes.",
+    imagen: "https://i.pinimg.com/736x/a5/83/f8/a583f82380f87bd5a825221a08e6e31c.jpg"
+  },
+  {
+    nombre: "La Carta del Borrado",
+    significado: "Olvido, eliminación de obstáculos y reinicios.",
+    imagen: "https://i.pinimg.com/736x/54/04/7a/54047a587ee0333325440839912e36fe.jpg"
+  },
+  {
+    nombre: "La Carta del Escudo",
+    significado: "Protección, defensa y seguridad emocional.",
+    imagen: "https://i.pinimg.com/736x/73/b6/a0/73b6a00aaa35bea128d19aab25699670.jpg"
+  },
+  {
+    nombre: "La Carta de las Burbujas",
+    significado: "Ligereza, diversión y pureza de emociones.",
+    imagen: "https://i.pinimg.com/736x/54/22/66/542266c3617c2d395ab83a8d623e59fb.jpg"
+  },
+  {
+    nombre: "La Carta de la Creación",
+    significado: "Imaginación, innovación y dar forma a nuevas ideas.",
+    imagen: "https://i.pinimg.com/736x/b5/91/8e/b5918e67cf787cfa02fc8159e84bf497.jpg"
+  },
+  {
+    nombre: "La Carta del Impulso",
+    significado: "Velocidad, acción rápida y toma de decisiones instantáneas.",
+    imagen: "https://i.pinimg.com/736x/dd/94/6b/dd946b5f00b6bc8205a431807b8daefb.jpg"
+  },
+  {
+    nombre: "La Carta de la Nieve",
+    significado: "Frialdad, calma y transformación lenta pero segura.",
+    imagen: "https://i.pinimg.com/736x/22/0d/d4/220dd461b0b64a2d175138955b8ffdc1.jpg"
+  },
+  {
+    nombre: "La Carta del Paso",
+    significado: "Movimiento, fluir sin obstáculos y progreso continuo.",
+    imagen: "https://i.pinimg.com/736x/f4/c3/4d/f4c34de9c1612a9f2babb5ff28208547.jpg"
+  },
+  {
+    nombre: "La Carta del Brillo",
+    significado: "Energía positiva, luz interna y felicidad radiante.",
+    imagen: "https://i.pinimg.com/736x/7a/7c/7c/7a7c7cbb3e3e27a1846948b1bbf4bed3.jpg"
+  },
+  {
+    nombre: "La Carta de la Sombra",
+    significado: "Misterios, lo oculto y el inconsciente.",
+    imagen: "https://i.pinimg.com/736x/03/ce/7a/03ce7a0187023b0ec26f33192f3fcc8a.jpg"
+  },
+  {
+    nombre: "La Carta de la Niebla",
+    significado: "Confusión, encubrimiento y lo desconocido.",
+    imagen: "https://i.pinimg.com/736x/23/84/5e/23845e723063ac62886ed98408a15786.jpg"
+  },
+  {
+    nombre: "La Carta de los Gemelos",
+    significado: "Dualidad, equilibrio y complementos.",
+    imagen: "https://i.pinimg.com/736x/91/a9/5f/91a95f3ede49daf804d00cc0d542d38d.jpg"
+  },
+  {
+    nombre: "La Carta de la Tormenta",
+    significado: "Caos, transformación y limpieza interna.",
+    imagen: "https://i.pinimg.com/736x/74/83/4e/74834e1a9289f04a0fa6502dc91ad0d7.jpg"
+  },
+  {
+    nombre: "La Carta de la Destrucción",
+    significado: "Finales abruptos, ruptura y renacimiento.",
+    imagen: "https://i.pinimg.com/736x/a5/20/8a/a5208a572bd900275e4b7e577af3473e.jpg"
+  },
+  {
+    nombre: "La Carta del Salto",
+    significado: "Superación de obstáculos y avance sin miedo.",
+    imagen: "https://i.pinimg.com/736x/6c/2b/26/6c2b26554da840f6234364d2a768c59a.jpg"
+  },
+  {
+    nombre: "La Carta del Vuelo",
+    significado: "Libertad, independencia y nuevas alturas.",
+    imagen: "https://i.pinimg.com/736x/b5/99/9b/b5999b054e78f816adb82069777e97d9.jpg"
+  },
+  {
+    nombre: "La Carta del Trueno",
+    significado: "Fuerza, poder y explosión de energía.",
+    imagen: "https://i.pinimg.com/736x/2d/a1/42/2da1424cc09aabc9f01a553279e78da7.jpg"
+  },
+  {
+    nombre: "La Carta de la Tierra",
+    significado: "Conexión, estabilidad y crecimiento sólido.",
+    imagen: "https://i.pinimg.com/736x/3b/67/31/3b67310646f0fd470705ce5ffa3fa062.jpg"
+  },
+  {
+    nombre: "La Carta del Sueño",
+    significado: "Relajación, descanso y conexión con el subconsciente.",
+    imagen: "https://i.pinimg.com/736x/56/15/c3/5615c311045d70debaf2a3b81cc37a1f.jpg"
+  },
+  {
+    nombre: "La Carta del Laberinto",
+    significado: "Desafíos, caminos confusos y búsqueda de soluciones.",
+    imagen: "https://i.pinimg.com/736x/c4/7d/8b/c47d8b7a3cb112b62e3541b3b8d192a4.jpg"
+  },
+  {
+    nombre: "La Carta del Intercambio",
+    significado: "Cambio de perspectivas, nuevas experiencias y aprendizaje.",
+    imagen: "https://i.pinimg.com/736x/02/c6/e8/02c6e8e854aa945ee612fe332f941dd2.jpg"
+  },
+  {
+    nombre: "La Carta del Flote",
+    significado: "Ligereza, elevación y desprendimiento de cargas.",
+    imagen: "https://i.pinimg.com/736x/86/a8/3e/86a83e0abe91267f7769a3d5349726cd.jpg"
+  },
+  {
+    nombre: "La Carta de la Arena",
+    significado: "Adaptabilidad, fluidez y resistencia ante los cambios.",
+    imagen: "https://static.wikia.nocookie.net/sakuracardcaptors/images/3/36/Arena.jpg/revision/latest?cb=20181225221136&path-prefix=es"
+  },
+  {
+    nombre: "La Carta del Movimiento",
+    significado: "Desplazamiento, acción constante y evitar la estancación.",
+    imagen: "https://static.wikia.nocookie.net/sakuracardcaptors/images/c/cd/Movimiento.jpg/revision/latest?cb=20181225225656&path-prefix=es"
+  },
+  {
+    nombre: "La Carta de la Voz",
+    significado: "Expresión, comunicación clara y poder de las palabras.",
+    imagen: "https://static.wikia.nocookie.net/sakuracardcaptorfanones/images/8/81/The_Voice.jpg/revision/latest?cb=20120725042028&path-prefix=es"
+  },
+  {
+    nombre: "La Carta del Candado",
+    significado: "Secretos, protección de información y resguardo personal.",
+    imagen: "https://static.wikia.nocookie.net/sakuracardcaptors/images/a/ab/Candado.jpg/revision/latest?cb=20181225221140&path-prefix=es"
+  },
+  {
+    nombre: "La Carta del Hielo",
+    significado: "Congelación, pausa y momentos de reflexión.",
+    imagen: "https://static.wikia.nocookie.net/sakuracardcaptors/images/1/1d/Hielo.jpg/revision/latest?cb=20181225223918&path-prefix=es"
+  },
+  {
+    nombre: "La Carta del Disparo",
+    significado: "Precisión, determinación y impacto certero.",
+    imagen: "https://static.wikia.nocookie.net/sakuracardcaptors/images/1/17/Disparo.jpg/revision/latest?cb=20181225222824&path-prefix=es"
   }
 ];
