@@ -31,7 +31,7 @@ const revelarCarta = () => {
     }
   });
 
-  // Play release sound
+  // Sonido al girar
   const audio = new Audio('https://raw.githubusercontent.com/stackblitz/content/main/sounds/release.mp3');
   audio.play();
 };
@@ -45,10 +45,12 @@ const revelarCarta = () => {
     @click="revelarCarta"
   >
     <div class="card-inner" :class="{ 'is-flipped': revelada }">
+      <!-- Reverso de la carta -->
       <div class="card-face card-back">
         <div class="card-back-design"></div>
       </div>
 
+      <!-- Parte frontal de la carta -->
       <div class="card-face card-front">
         <img :src="carta.imagen" :alt="carta.nombre" class="card-image">
         <div class="card-content">
@@ -59,7 +61,6 @@ const revelarCarta = () => {
     </div>
   </div>
 </template>
-
 
 <style scoped>
 .clow-card {
@@ -75,12 +76,14 @@ const revelarCarta = () => {
   opacity: 0.7;
 }
 
+/* 🔄 Corrección en la rotación inicial */
 .card-inner {
   position: relative;
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform 0.8s;
+  transition: transform 0.8s ease-in-out;
+  transform: rotateY(0deg); /* 🔄 Asegura que inicie sin girar */
 }
 
 .is-flipped {
@@ -97,9 +100,23 @@ const revelarCarta = () => {
   overflow: hidden;
 }
 
+/* 🎴 Estilo para el reverso de la carta */
 .card-back {
   background: linear-gradient(45deg, #2c0a4a, #4a1073);
   border: 2px solid #ffd700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 🎴 Estilo para el frente de la carta */
+.card-front {
+  transform: rotateY(180deg);
+  background: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-back-design {
@@ -119,8 +136,6 @@ const revelarCarta = () => {
   max-width: 900px;
   margin: 0 auto;
 }
-
-
 
 .card-image {
   width: 100%;

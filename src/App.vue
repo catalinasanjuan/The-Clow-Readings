@@ -34,7 +34,7 @@ const handleCardRevealed = (carta: ClowCardType) => {
       </div>
 
       <div v-if="cartasSeleccionadas.length > 0" class="mt-12 text-center">
-        <h2 class="text-2xl font-bold text-yellow-400 mb-4">Tu Lectura Mágica</h2>
+        <h2 class="titulo-clow">Tu Lectura Mágica</h2>
         <div class="bg-white/10 rounded-lg p-6 backdrop-blur-sm">
           <div v-for="(carta, index) in cartasSeleccionadas" :key="carta.nombre" class="mb-4">
             <h3 class="text-xl text-yellow-300">{{ carta.nombre }}</h3>
