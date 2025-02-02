@@ -48,6 +48,7 @@ const revelarCarta = () => {
       <div class="card-face card-back">
         <div class="card-back-design"></div>
       </div>
+
       <div class="card-face card-front">
         <img :src="carta.imagen" :alt="carta.nombre" class="card-image">
         <div class="card-content">
@@ -58,6 +59,7 @@ const revelarCarta = () => {
     </div>
   </div>
 </template>
+
 
 <style scoped>
 .clow-card {
@@ -109,14 +111,16 @@ const revelarCarta = () => {
   opacity: 0.8;
 }
 
-.card-front {
-  transform: rotateY(180deg);
-  background: white;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.grid-cartas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Organiza en filas */
+  gap: 1rem; /* Espaciado entre cartas */
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
 }
+
+
 
 .card-image {
   width: 100%;
