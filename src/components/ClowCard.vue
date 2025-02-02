@@ -65,11 +65,15 @@ const revelarCarta = () => {
 <style scoped>
 .clow-card {
   width: 200px;
-  height: 300px;
+  height: 350px; /* Aumenta la altura */
   perspective: 1000px;
   cursor: pointer;
   margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribuye el contenido */
 }
+
 
 .disabled {
   cursor: not-allowed;
@@ -117,6 +121,7 @@ const revelarCarta = () => {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%; /* Asegura que ocupe toda la carta */
 }
 
 .card-back-design {
@@ -139,14 +144,15 @@ const revelarCarta = () => {
 
 .card-image {
   width: 100%;
-  height: 70%;
+  height: 100%;
   object-fit: cover;
   border-radius: 8px;
 }
 
 .card-content {
-  margin-top: 1rem;
+  margin-top: auto; /* Empuja el texto hacia abajo */
   text-align: center;
+  padding: 0.5rem;
 }
 
 .card-content h3 {
