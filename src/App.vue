@@ -18,12 +18,11 @@ const handleCardRevealed = (carta: ClowCardType) => {
   <div class="min-h-screen bg-gradient-to-b from-purple-900 to-indigo-900 py-8 px-4">
     <div class="max-w-4xl mx-auto">
       <header class="text-center mb-12">
-        <h1 class="text-4xl font-bold text-yellow-400 mb-4">
-          🔮 Tirada Mágica de Cartas Clow
-        </h1>
-        <p class="text-lg text-yellow-200">
-          Selecciona una carta para revelar su mensaje mágico...
-        </p>
+
+        <h1 class="titulo-clow">🔮 Tirada Mágica de Cartas Clow</h1>
+
+        <p class="subtitulo-clow">Selecciona una carta para revelar su mensaje mágico...</p>
+
       </header>
 
       <div class="flex flex-wrap justify-center gap-6">
