@@ -1,0 +1,29 @@
+# 🔮 The Clow Readings
+Un proyecto web interactivo que permite realizar una **tirada mágica de Cartas Clow**, inspirado en *Cardcaptor Sakura*. 🃏✨
+
+## 🚀 Demo en Netlify
+🔗 [Accede a la versión en vivo aquí](https://the-clow-readings.netlify.app/)  
+
+
+## 🛠️ Tecnologías utilizadas
+- **Vue 3 + Vite** (Framework Frontend)
+- **TypeScript** (Tipado estático)
+- **GSAP** (Animaciones)
+- **Tailwind CSS** (Estilos)
+- **Netlify** (Hosting y despliegue automático)
+  
+## 📦 Instalación y ejecución local
+Si deseas correr el proyecto en tu máquina:
+
+```bash
+# Clona el repositorio
+git clone https://github.com/catalinasanjuan/The-Clow-Readings.git
+
+# Entra al directorio del proyecto
+cd The-Clow-Readings
+
+# Instala las dependencias
+npm install
+
+# Inicia el servidor de desarrollo
+npm run dev
