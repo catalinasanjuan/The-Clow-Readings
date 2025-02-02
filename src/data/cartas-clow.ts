@@ -244,31 +244,31 @@ export const CARTAS_CLOW: ClowCard[] = [
   {
     nombre: "La Carta de la Arena",
     significado: "Adaptabilidad, fluidez y resistencia ante los cambios.",
-    imagen: "https://static.wikia.nocookie.net/sakuracardcaptors/images/3/36/Arena.jpg/revision/latest?cb=20181225221136&path-prefix=es"
+    imagen: "https://i.pinimg.com/736x/2b/8f/8c/2b8f8c52b612c66e10f702a38fcb6898.jpg"
   },
   {
     nombre: "La Carta del Movimiento",
     significado: "Desplazamiento, acción constante y evitar la estancación.",
-    imagen: "https://static.wikia.nocookie.net/sakuracardcaptors/images/c/cd/Movimiento.jpg/revision/latest?cb=20181225225656&path-prefix=es"
+    imagen: "https://i.pinimg.com/736x/d9/ea/16/d9ea164b5182d679f28ad1aa70030eae.jpg"
   },
   {
     nombre: "La Carta de la Voz",
     significado: "Expresión, comunicación clara y poder de las palabras.",
-    imagen: "https://static.wikia.nocookie.net/sakuracardcaptorfanones/images/8/81/The_Voice.jpg/revision/latest?cb=20120725042028&path-prefix=es"
+    imagen: "https://i.pinimg.com/736x/bf/f3/a9/bff3a925bce0d6e4e13c855929382bbb.jpg"
   },
   {
     nombre: "La Carta del Candado",
     significado: "Secretos, protección de información y resguardo personal.",
-    imagen: "https://static.wikia.nocookie.net/sakuracardcaptors/images/a/ab/Candado.jpg/revision/latest?cb=20181225221140&path-prefix=es"
+    imagen: "https://i.pinimg.com/736x/2f/c8/6c/2fc86c6e80bad4f6b2bb7ccbd0a9b6c8.jpg"
   },
   {
     nombre: "La Carta del Hielo",
     significado: "Congelación, pausa y momentos de reflexión.",
-    imagen: "https://static.wikia.nocookie.net/sakuracardcaptors/images/1/1d/Hielo.jpg/revision/latest?cb=20181225223918&path-prefix=es"
+    imagen: "https://i.pinimg.com/736x/01/34/86/01348682b115a1fa8cce1fb08e7371cb.jpg"
   },
   {
     nombre: "La Carta del Disparo",
     significado: "Precisión, determinación y impacto certero.",
-    imagen: "https://static.wikia.nocookie.net/sakuracardcaptors/images/1/17/Disparo.jpg/revision/latest?cb=20181225222824&path-prefix=es"
+    imagen: "https://i.pinimg.com/736x/97/fa/56/97fa56a46efa71069e511851a80f1111.jpg"
   }
 ];
